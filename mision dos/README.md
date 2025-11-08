@@ -9,7 +9,7 @@ pip install scikit-learn numpy  gym==0.26.2  gym-notices
 crear el archivo  setup_nltk.py
 ```
 import nltk
-
+cls
 try:
     nltk.download('punkt')
     print(" NLTK punkt descargado correctamente")
