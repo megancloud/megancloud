@@ -15,6 +15,7 @@ git add .
 git commit -m "nombre el commmit"
 git pull (para traer cambios)
 git push
+git remote 
 
 set-executionPolicy
 
