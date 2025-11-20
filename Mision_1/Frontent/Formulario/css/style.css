@@ -31,7 +31,7 @@ nav ul li a{
     font-weight: bold;
 }
 
-h1 {
+/* h1 {
     color: blue;
 }
 
@@ -41,55 +41,60 @@ h2 {
 
 h3 {
     color: orange;
-}
+} */
 
-/*estilos footer*/
-footer {
+/* Estilos footer */
+footer{
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 20px;
-    position: fi;
-    bottom: 0;
-    width: 100%;
+    padding: 20px 0;
+    position: relative;
 }
 
-.contenido {
+.contenido{
     padding: 40px;
     text-align: center;
 }
+
 .formulario{
     max-width: 500px;
     margin: 30px auto;
-    background-color: #cc3131;
+    background-color: #c7b7b7;
     padding: 20px;
     border-radius: 8px;
-    
 }
+
+.formulario h2{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
 .formulario label{
     display: block;
-    margin-bottom: 10px;
+    margin-top: 10px;
     font-weight: bold;
-    color: white;
 }
--formulario input, 
-.formulario textarea{
-    width: 100%;
+
+.formulario input,
+.formulario textarea {
+    width: 90%;
     padding: 10px;
-    margin-bottom: 15px;
+    margin-top: 5px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 
 .formulario button{
-    margin-top:15px;
-    background-color: #291e21;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #333;
     color: white;
-    padding: 10px 15px;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     cursor: pointer;
 }
-.formulario button:hover{
+
+.formulario button:hover {
     background-color: #555;
 }

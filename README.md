@@ -20,3 +20,7 @@ git remote
 set-executionPolicy
 
 Set-ExecutionPolicy Unrestricted
+
+env/scripts/Activate.ps1    (esto me abrio y activo el chat bot)(quede ubicado en la carpeta mision 3/chatbot)
+
+pip install -r requirements.txt
