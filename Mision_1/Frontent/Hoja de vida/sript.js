@@ -10,8 +10,8 @@ const hv = {
     image: { type: 'jpeg', quality: 0.98 },
     html2canvas: 
     { scale: 2 
-        usecors: true;
-        arrowtaint: false
+        useCORS: true;
+        allowtaint: false
         scrollY: 0
 
     },
